@@ -1,0 +1,30 @@
+登陆操作：
+git --config user.name "YangWenXuan"
+git --config user.email "282090664@qq.com"
+
+初始化操作：
+git init     初始化一个本地文件夹为 git 仓库.
+git status 查看本地仓库装填信息
+git add 文件名      添加一个新的文件到本地仓库
+git add .   ----添加整个文件夹下所有的文件到暂存区
+git commit -m "提交提示"  提交修改内容到本地仓库
+
+
+连接git服务器的操作:
+git remote add origin [git@github.com:YangWenXuan/GameFramework01.git]     ----链接远端仓库
+git push origin master 将确认内容push到远端
+
+
+
+
+连接后的操作:
+git chechout master ----切换分支到主分支
+git branch FirstBranch ---- 创建新的分支
+
+
+
+
+使用注意点：
+①在与GitHub远端连接的时候，如果配置了SSHKey，则不用再登陆；直接新建本地文件夹--初始化--查看状态--gitClone将想要建立连接的远端Clone的操作就相当于建立连接了
+
+

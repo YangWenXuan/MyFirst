@@ -15,13 +15,18 @@ git remote add origin [git@github.com:YangWenXuan/GameFramework01.git]     ----Á
 git push origin master ½«È·ÈÏÄÚÈİpushµ½Ô¶¶Ë
 
 
-
-
 Á¬½ÓºóµÄ²Ù×÷:
 git chechout master ----ÇĞ»»·ÖÖ§µ½Ö÷·ÖÖ§
 git branch FirstBranch ---- ´´½¨ĞÂµÄ·ÖÖ§
 
 
+Ìá½»ºÍÀ­È¡µÄ²Ù×÷£º
+Çé¿ö¢Ù£º²»ÏëCommit×Ô¼ºµÄĞŞ¸ÄºÍĞÂÌí¼ÓµÄÎÄ¼ş£¬Ö»Ïë´Óremote¶ËÀ­È¡×îĞÂµÄ°æ±¾
+Ö»Ê¹ÓÃÒ»¸öÃüÁî£ºgit checkout .
+
+
+´ÓÔ¶¶Ë»ñÈ¡×îĞÂ°æ±¾²¢ºÏ²¢µÄÃüÁî£º
+git pull origin master
 
 
 Ê¹ÓÃ×¢Òâµã£º

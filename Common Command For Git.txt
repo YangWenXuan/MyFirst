@@ -29,6 +29,18 @@ git branch FirstBranch ---- 创建新的分支
 git pull origin master
 
 
+分支操作相关：
+git branch -r  :  查看远端库的分支状况
+git branch  查看本地分支状况     ---星号（*）代表当前所在分支
+git chechout -b dev  :  从已有的分支创建新的分支(本地操作--只在本地创建了一个分支)（如从master分支）创建一个dev分支.
+
+提交新分支的改动到主分支上：
+①先切回主分支：git chechout master
+②提交改动到主分支：git merge dev
+③ git diff 查看冲突
+④ git push origin remote 提交到远端
+
+
 使用注意点：
 ①在与GitHub远端连接的时候，如果配置了SSHKey，则不用再登陆；直接新建本地文件夹--初始化--查看状态--gitClone将想要建立连接的远端Clone的操作就相当于建立连接了
 

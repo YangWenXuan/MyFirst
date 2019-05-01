@@ -25,7 +25,11 @@ git branch FirstBranch ---- 创建新的分支
 只使用一个命令：git checkout .
 
 
-从远端获取最新版本并合并的命令：
+当你想从远端获取最新版本并合并的时候：
+git remote -v 查看远程仓库
+git fetch origin master:temp : 从远程origin仓库的master下载到本地master并新建一个temp分支
+git pull origin master 从远程拉取最新版本到本地并且会自动合并
+git fetch origin master 从远程拉取最新版本到本地，但是不会合并
 git pull origin master
 
 

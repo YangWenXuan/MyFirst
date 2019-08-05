@@ -38,11 +38,26 @@ git branch -r  :  查看远端库的分支状况
 git branch  查看本地分支状况     ---星号（*）代表当前所在分支
 git chechout -b dev  :  从已有的分支创建新的分支(本地操作--只在本地创建了一个分支)（如从master分支）创建一个dev分支.
 
+
+
 提交新分支的改动到主分支上：
 ①先切回主分支：git chechout master
 ②提交改动到主分支：git merge dev
 ③ git diff 查看冲突
 ④ git push origin remote 提交到远端
+
+
+
+关于git的暂存功能：
+关键词：想pull 但不想commit
+① git stash 可用来暂存当前正在进行的工作， 比如想pull 最新代码， 又不想加新commit， 或者另外一种情况，为了fix 一个紧急的bug,  先stash, 使返回到自己上一个commit, 改完bug之后再stash pop, 继续原来的工作;
+备份当前工作区的内容，保存到git 栈中，从最近的一次commit中读取相关内容
+②git stash 与 git stash pop 一对命令：
+ git stash poop:从git栈中获取到最近一次stash进去的内容，恢复工作区的内容。。获取之后，会删除栈中对应的stash.
+③git stash list 显示git栈中所有工作区内容的备份
+④git stash clear 清空git栈.
+
+
 
 
 使用注意点：

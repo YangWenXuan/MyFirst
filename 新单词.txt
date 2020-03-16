@@ -1,0 +1,83 @@
+5-14
+profile 轮廓
+fatal a.致命的，有害的
+authentication 认证
+separate
+fetch
+
+merge
+contributer
+abort 中止
+tutorials 教程
+sample 样品
+revision 修订
+orphan 
+derive 派生
+alignment 校准，队列
+Elasticity 弹性
+visibility 可见性
+permanent 永久
+expand 扩大
+interval 间隔
+recompile 重新编译
+board 板子，面板
+Resume 恢复，重新开始
+pending 有待
+token
+banner
+parse
+permanently
+Dimension 尺寸
+recover 恢复
+replace 取代，替代
+encrypt 加密
+inherit 继承
+Explanation 解释说明
+halo光环，光晕，天使头顶上的圈圈
+inventory 库存清单
+drawer 抽屉，开票人
+templates 模板，样板
+presented 提出了
+persistent 持久的
+manually 手动的
+Thereafter 此后
+indeed 的确
+dock 码头，停靠
+inner 内
+bevel 斜角
+Skew 歪斜
+subtractive 减法
+multiply 乘法
+Additive 加法
+patch 补丁，破解
+epic 史诗
+subset 子集
+wizard 向导程序
+optimized 优化
+Scroll View 滚动视图
+orientation 方向
+implement 简单的
+abbreviation 缩写
+historically 历史上
+interchangeably 交换的，可交换的
+stick to 坚持
+reference 参考
+accessed  访问
+via 通过
+adapter 适配器
+tutorial 指导
+guide 指导
+relevant 相关的
+picker 采摘者
+simulate 模拟
+migration 迁移
+correspond 相符，一致
+correspond
+repetitive
+statistics 统计，统计学
+explicit 明确的
+continuous 连续的
+interact v.相互影响
+strict a.严格的
+
+binary 二进制

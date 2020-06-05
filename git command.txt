@@ -74,3 +74,7 @@ git push --mirror 新的git地址
 一种是 git rm --cached "文件路径"，不删除物理文件，仅将该文件从缓存中删除；
 一种是 git rm --f "文件路径"，不仅将该文件从缓存中删除，还会将物理文件删除（不会回收到垃圾桶）
 然后再推送到仓库
+
+
+git文件名太长无法处理的问题：
+①git config --system core.longpaths true

@@ -1,4 +1,0 @@
-﻿范德萨发
-
-这是shadowsock的客户端下载地址
-https://github.com/shadowsocks/shadowsocks-android/releases
